@@ -1,0 +1,12 @@
+create database mart;
+use mart;
+
+create table customers {
+	customer_number int primary key,
+	first_name varchar(225) not null,
+	last_name varchar(225) not null,
+	address varchar(225) null,
+	city varchar(225) not null,
+};
+
+select * from customer;
